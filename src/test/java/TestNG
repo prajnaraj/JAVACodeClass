@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+  <groups>
+  <run>
+  <include name="Smoke">
+  </include>
+  <exclude name="Regression"></exclude>
+  </run>
+  </groups>
+    <classes>
+      <class name="TestCase.HomePage"/>
+      <class name="TestCase.LoginPage"/>
+      <class name="TestCase.TestSample"/>
+      <class name="TestCase.DashBoardPage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
